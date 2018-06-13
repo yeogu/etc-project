@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Easy Travel Consultant</title>
+    <link rel="stylesheet" type="text/css" href="css/templete.css">
+    <link rel="stylesheet" type="text/css" href="css/recommending_calendar.css">
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="css/search.css">
+    <style media="screen">
+      @font-face {
+        font-family: "NanumBarunpen";
+        src: url("fonts/NanumBarunpenR.otf");
+      }
+      .menu-font {
+        font-family: NanumBarunpen;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <ul class="ul-header">
+        <a href="mypage.html"><li class="li-header">마이페이지</li></a>
+        <a href="login.html"><li class="li-header">로그인</li></a>
+      </ul>
+    </header>
+
+    <nav>
+      <div id="logo">
+        <a href="etc.html"><img src="images/logo.png"></a>
+      </div>
+      <div class="out">
+        <div class="in">
+          <ul class="ul-nav menu-font">
+            <li class="li-nav">
+              <a href="creating_calendar.html"><span class="menu-hover" id="menu1">일정 만들기</span></a>
+            </li>
+            <li class="li-nav">
+              <a href="recommending_calendar.html"><span class="menu-hover" id="menu2">일정 추천</span></a>
+            </li>
+            <li class="li-nav">
+              <a href="recommending_location.html"><span class="menu-hover" id="menu3">여행지 추천</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <form action="">
+      <div id="result"></div>
+      <fieldset>
+        <!-- <input type="text" id="getSearch" name="search" value="{{ search }}" placeholder="도시를 입력하세요"/> -->
+        <input type="text" id="getSearch" name="search" placeholder="도시를 입력하세요"/>
+        <button type="submit" id="Search"><i class="fa fa-search"></i></button>
+      </fieldset>
+    </form>
+
+
+    <div id="wrap">
+      <div id="map" class="left">
+        <!-- 지도 -->
+      </div>
+      <div class="right">
+        <!-- 관광지 및 음식점 리스트 -->
+        <button type="button" name="save" id="save-btn">저장</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright 2018. ETC project. All rights reserved.<br>금오공과대학교 남지현 유영현 김여주 전윤혜</p>
+    </footer>
+
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzCZX9BGodEkDPXeOlihwheJWCpzehOr4&callback=initMap"></script>
+
+  </body>
+</html>

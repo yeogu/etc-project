@@ -1,0 +1,49 @@
+#wrap {
+   overflow: auto;
+   margin: auto;
+}
+
+#menu3{
+  color: #FA4659;
+}
+
+.content{
+  float: left;
+  width: 95%;
+  border: 1px solid #11CBD7;
+  margin: 10px;
+  background-color: white;
+}
+
+h1{
+  font-family: NanumPen;
+  margin-left: 20px;
+}
+
+.fes_box {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #C6F1E7;
+}
+
+h3 {
+  text-align: center;
+}
+
+.date{
+  display: block;
+  text-align: center;
+}
+
+.local_box{
+  position: relative;
+  text-align: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+}

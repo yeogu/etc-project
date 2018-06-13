@@ -1,0 +1,43 @@
+#wrap {
+   overflow: auto;
+   margin: auto;
+}
+
+#menu2{
+  color: #FA4659;
+}
+
+.left, .right{
+  float: left;
+  width: 100%;
+  height: 600px;
+  border: 1px solid #11CBD7;
+  margin: 10px;
+  background-color: white;
+}
+
+.left {
+  width: 60%;
+  margin-left: 4%;
+}
+
+.right{
+  width: 30%;
+}
+
+form{
+  margin-left: 72px;
+}
+
+#save-btn{
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+  border: 0 none;
+  cursor: pointer;
+  margin-top: 550px;
+  color: white;
+  background: #FA4659;
+  padding: 0;
+  display: inline-block;
+}

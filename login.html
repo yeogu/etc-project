@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Easy Travel Consultant</title>
+    <link rel="stylesheet" type="text/css" href="css/templete.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <style media="screen">
+      @font-face {
+        font-family: "NanumBarunpen";
+        src: url("fonts/NanumBarunpenR.otf");
+      }
+      @font-face {
+        font-family: "NanumPen";
+        src: url("fonts/NanumPen.otf");
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <ul class="ul-header">
+        <a href="mypage.html"><li class="li-header">마이페이지</li></a>
+        <a href="login.html"><li class="li-header">로그인</li></a>
+      </ul>
+    </header>
+
+    <nav>
+      <div id="logo">
+        <a href="etc.html"><img src="images/logo.png"></a>
+      </div>
+    </nav>
+
+    <div class="site__container">
+      <div class="grid__container">
+        <form action="" method="post" class="form form--login">
+          <div class="form__field">
+            <label class="fontawesome-user" for="login__username"><span class="hidden">아이디</span></label>
+            <input id="login__username" type="text" class="form__input" placeholder="아이디" required>
+          </div>
+
+          <div class="form__field">
+            <label class="fontawesome-lock" for="login__password"><span class="hidden">비밀번호</span></label>
+            <input id="login__password" type="password" class="form__input" placeholder="비밀번호" required>
+          </div>
+
+          <div class="form__field">
+            <input type="submit" value="로그인">
+          </div>
+
+        </form>
+        <p class="text--center">회원이 아니세요? <a id="highlight" href="register.html">회원가입</a> <span class="fontawesome-arrow-right"></span></p>
+      </div>
+    </div>
+
+  </body>
+</html>

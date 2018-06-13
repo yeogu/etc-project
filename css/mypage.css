@@ -1,0 +1,12 @@
+#wrap {
+   overflow: auto;
+   margin: auto;
+}
+
+#mypage-list{
+  width: 95%;
+  height: 600px;
+  border: 1px solid #11CBD7;
+  margin: 10px;
+  background-color: white;
+}
